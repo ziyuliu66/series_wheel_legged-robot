@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:include filename="$(find robot_description_pkg)/urdf/common_inertia.xacro"/>
+    <xacro:macro name="leg_link_xacro" params="position xyz">
+
+        <link name="${position}_thigh_link">
+
+            <visual>
+                <origin xyz="0.0 0.0 -0.15" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.025 0.02 0.3"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 1.0 1.0 0.5"/>
+                </material>
+            </visual>
+
+            <collision>
+                <origin xyz="0.0 0.0 -0.15" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.025 0.02 0.3"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 1.0 1.0 0.5"/>
+                </material>
+            </collision>
+
+            <xacro:box_inertia m="0.135" w="0.025" h="0.02" d="0.3" xyz="0.0 0.0 -0.15" rpy="0.0 0.0 0.0"/>
+
+        </link>
+
+        <link name="${position}_shank_link">
+
+            <visual>
+                <origin xyz="0.0 0.0 -0.15" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.025 0.02 0.3"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 0.0 0.0 0.5"/>
+                </material>
+            </visual>
+
+            <collision>
+                <origin xyz="0.0 0.0 -0.15" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.025 0.02 0.3"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 0.0 0.0 0.5"/>
+                </material>
+            </collision>
+
+            <xacro:box_inertia m="0.135" w="0.025" h="0.02" d="0.3" xyz="0.0 0.0 -0.15" rpy="0.0 0.0 0.0"/>
+
+        </link>
+
+        <joint name="${position}_thigh_link_joint" type="continuous">
+            <origin xyz="${xyz}" rpy="0.0 1.04719755 0.0"/>
+            <parent link="base_link"/>
+            <child link="${position}_thigh_link"/>
+            <axis xyz="0.0 1.0 0.0"/>
+        </joint>
+
+        <joint name="${position}_shank_link_joint" type="continuous">
+            <origin xyz="0.0 0.0 -0.3" rpy="0.0 -2.094395102 0.0"/>
+            <parent link="${position}_thigh_link"/>
+            <child link="${position}_shank_link"/>
+            <axis xyz="0.0 1.0 0.0"/>
+        </joint>
+
+    </xacro:macro>
+    
+</robot>

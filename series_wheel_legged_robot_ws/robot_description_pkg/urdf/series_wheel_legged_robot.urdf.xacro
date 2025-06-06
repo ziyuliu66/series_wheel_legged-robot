@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="series_wheel_legged_robot">
+<!-- base -->
+<xacro:include filename="$(find robot_description_pkg)/urdf/base_link.urdf.xacro"/>
+<xacro:include filename="$(find robot_description_pkg)/urdf/leg_link.urdf.xacro"/>
+<!-- actor -->
+<xacro:include filename="$(find robot_description_pkg)/urdf/actor/wheel_link.urdf.xacro"/>
+<!-- sensor -->
+<xacro:include filename="$(find robot_description_pkg)/urdf/sensor/imu_link.urdf.xacro"/>
+
+<xacro:base_link_xacro xyz="0.0 0.0 0.6"/>
+<xacro:leg_link_xacro position="left" xyz="0.0 -0.16 -0.07" />
+<xacro:leg_link_xacro position="right" xyz="0.0 0.16 -0.07" />
+<xacro:wheel_link_xacro position="left" xyz="0.0 -0.02 -0.3"/>
+<xacro:wheel_link_xacro position="right" xyz="0.0 0.02 -0.3"/>
+<xacro:imu_link_xacro/>
+
+</robot>
