@@ -28,12 +28,20 @@
 
         </link>
 
-        <joint name="${position}_wheel_link_joint" type="continuous">
+        <joint name="${position}_wheel_joint" type="continuous">
             <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
             <parent link="${position}_shank_link"/>
             <child link="${position}_wheel_link"/>
             <axis xyz="0.0 1.0 0.0"/>
         </joint>
+
+         <gazebo reference="${position}_wheel_link">
+	        <material>Gazebo/Yellow</material>
+	        <mu1 value="20.0"/>
+	        <mu2 value="20.0"/>
+	        <kp value="1000000000000000.0"/>
+	        <kd value="1.0"/>
+        </gazebo>
 
     </xacro:macro>
    

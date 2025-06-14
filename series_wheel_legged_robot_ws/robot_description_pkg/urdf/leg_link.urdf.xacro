@@ -55,15 +55,15 @@
 
         </link>
 
-        <joint name="${position}_thigh_link_joint" type="continuous">
-            <origin xyz="${xyz}" rpy="0.0 1.04719755 0.0"/>
+        <joint name="${position}_hip_joint" type="continuous">
+            <origin xyz="${xyz}" rpy="0.0 1.04719755 0.0"/>    
             <parent link="base_link"/>
             <child link="${position}_thigh_link"/>
             <axis xyz="0.0 1.0 0.0"/>
         </joint>
 
-        <joint name="${position}_shank_link_joint" type="continuous">
-            <origin xyz="0.0 0.0 -0.3" rpy="0.0 -2.094395102 0.0"/>
+        <joint name="${position}_knee_joint" type="continuous">
+            <origin xyz="0.0 0.0 -0.3" rpy="0.0 -2.094395102 0.0"/> 
             <parent link="${position}_thigh_link"/>
             <child link="${position}_shank_link"/>
             <axis xyz="0.0 1.0 0.0"/>

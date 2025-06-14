@@ -7,6 +7,8 @@
 <xacro:include filename="$(find robot_description_pkg)/urdf/actor/wheel_link.urdf.xacro"/>
 <!-- sensor -->
 <xacro:include filename="$(find robot_description_pkg)/urdf/sensor/imu_link.urdf.xacro"/>
+<!-- ros2_control -->
+<xacro:include filename="$(find robot_description_pkg)/urdf/series_wheel_legged_robot.ros2_control.xacro"/>
 
 <xacro:base_link_xacro xyz="0.0 0.0 0.6"/>
 <xacro:leg_link_xacro position="left" xyz="0.0 -0.16 -0.07" />
@@ -14,5 +16,6 @@
 <xacro:wheel_link_xacro position="left" xyz="0.0 -0.02 -0.3"/>
 <xacro:wheel_link_xacro position="right" xyz="0.0 0.02 -0.3"/>
 <xacro:imu_link_xacro/>
+<xacro:series_wheel_legged_robot_ros2_control/>
 
 </robot>

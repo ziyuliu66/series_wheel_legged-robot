@@ -44,16 +44,16 @@ def generate_launch_description():
         }]
     )
     
-    # action_joint_state_publisher_node = Node(
-    #     package='joint_state_publisher',
-    #     executable='joint_state_publisher',
-    # )
+    action_joint_state_publisher_node = Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+    )
     
-    # action_rviz2_node = Node(
-    #     package='rviz2',
-    #     executable='rviz2',
-    #     arguments=['-d',default_rviz2_config_path]
-    # )
+    action_rviz2_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        arguments=['-d',default_rviz2_config_path]
+    )
 
     # 通过 IncludeLaunchDescription 包含另外一个 launch 文件
     launch_gazebo = launch.actions.IncludeLaunchDescription(
@@ -88,7 +88,7 @@ def generate_launch_description():
         action_declare_arg_model_path,
         action_robot_state_publisher_node,
         # action_joint_state_publisher_node,
-        # action_rviz2_node,
+        action_rviz2_node,
         launch_gazebo,
         spawn_entity_node,
          # 事件动作，当加载机器人结束后执行    
