@@ -231,7 +231,8 @@
 			[
 				"urdf",
 				"config",
-				"launch"
+				"launch",
+				"plugins"
 			],
 			"type" : "directory"
 		},

@@ -47,6 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/robot_description_pkg/urdf"
     "/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/robot_description_pkg/config"
     "/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/robot_description_pkg/launch"
+    "/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/robot_description_pkg/plugins"
     )
 endif()
 
