@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.002949] (lqr_effort_controller) JobQueued: {'identifier': 'lqr_effort_controller', 'dependencies': OrderedDict()}
+[0.003313] (robot_description_pkg) JobQueued: {'identifier': 'robot_description_pkg', 'dependencies': OrderedDict([('lqr_effort_controller', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller')])}
+[0.003428] (lqr_effort_controller) JobStarted: {'identifier': 'lqr_effort_controller'}
+[0.013278] (lqr_effort_controller) JobProgress: {'identifier': 'lqr_effort_controller', 'progress': 'cmake'}
+[0.013843] (lqr_effort_controller) JobProgress: {'identifier': 'lqr_effort_controller', 'progress': 'build'}
+[0.014721] (lqr_effort_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller', '--', '-j8', '-l8'], 'cwd': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('LP_NO_RAST', 'false'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1353'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('COLORTERM', 'truecolor'), ('LP_PERF', 'nopt,noasm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('FORCE_SOFTWARE', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1353,unix/lzy-virtual-machine:/tmp/.ICE-unix/1353'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a000902_92fd_424c_936a_7c97aa0896a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e75fa47c5a3a6342.txt'), ('LP_NUM_THREADS', '8'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ZZ072'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23d2f62c67.sock'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GALLIUM_DRIVER', 'llvmpipe'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.081220] (lqr_effort_controller) StdoutLine: {'line': b'[ 50%] Built target lqr_effort_controller_parameters\n'}
+[0.100106] (-) TimerEvent: {}
+[0.117283] (lqr_effort_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lqr_effort_controller.dir/src/lqr_effort_controller.cpp.o\x1b[0m\n'}
+[0.200881] (-) TimerEvent: {}
+[0.301588] (-) TimerEvent: {}
+[0.402777] (-) TimerEvent: {}
+[0.503198] (-) TimerEvent: {}
+[0.606216] (-) TimerEvent: {}
+[0.707291] (-) TimerEvent: {}
+[0.808694] (-) TimerEvent: {}
+[0.909680] (-) TimerEvent: {}
+[1.010446] (-) TimerEvent: {}
+[1.111355] (-) TimerEvent: {}
+[1.214746] (-) TimerEvent: {}
+[1.315540] (-) TimerEvent: {}
+[1.416196] (-) TimerEvent: {}
+[1.516961] (-) TimerEvent: {}
+[1.617876] (-) TimerEvent: {}
+[1.719068] (-) TimerEvent: {}
+[1.820505] (-) TimerEvent: {}
+[1.921488] (-) TimerEvent: {}
+[2.022969] (-) TimerEvent: {}
+[2.123683] (-) TimerEvent: {}
+[2.225032] (-) TimerEvent: {}
+[2.325617] (-) TimerEvent: {}
+[2.426555] (-) TimerEvent: {}
+[2.528179] (-) TimerEvent: {}
+[2.628845] (-) TimerEvent: {}
+[2.731006] (-) TimerEvent: {}
+[2.831774] (-) TimerEvent: {}
+[2.933141] (-) TimerEvent: {}
+[3.034255] (-) TimerEvent: {}
+[3.135511] (-) TimerEvent: {}
+[3.236913] (-) TimerEvent: {}
+[3.337987] (-) TimerEvent: {}
+[3.438718] (-) TimerEvent: {}
+[3.538901] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:30\x1b[m\x1b[K,\n'}
+[3.539189] (-) TimerEvent: {}
+[3.540230] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.540410] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:1:166:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: #include "lqr_effort_controller_parameters.hpp" is deprecated. Use #include <lqr_effort_controller/lqr_effort_controller_parameters.hpp> instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.540543] (lqr_effort_controller) StderrLine: {'line': b'    1 | essage("#include \\"lqr_effort_controller_parameters.hpp\\" is deprecated. Use #include <lqr_effort_controller/lqr_effort_controller_parameters.hpp> instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[3.540697] (lqr_effort_controller) StderrLine: {'line': b'      |                                                                                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.540776] (lqr_effort_controller) StderrLine: {'line': b'\n'}
+[3.639928] (-) TimerEvent: {}
+[3.657310] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[3.657736] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:30\x1b[m\x1b[K,\n'}
+[3.657787] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.657832] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:29:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.657946] (lqr_effort_controller) StderrLine: {'line': b'   29 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[3.658013] (lqr_effort_controller) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.658065] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[3.658125] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:30\x1b[m\x1b[K,\n'}
+[3.658164] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.658203] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.658270] (lqr_effort_controller) StderrLine: {'line': b'   37 | using \x1b[01;36m\x1b[KResult\x1b[m\x1b[K\n'}
+[3.658328] (lqr_effort_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.661923] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[3.662196] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:30\x1b[m\x1b[K,\n'}
+[3.662282] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.662355] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.662474] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:35:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.662547] (lqr_effort_controller) StderrLine: {'line': b'   35 |     return \x1b[01;35m\x1b[KERROR("\'interface_name\' parameter can not start with \'blup_\'")\x1b[m\x1b[K;\n'}
+[3.662611] (lqr_effort_controller) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.662677] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[3.662741] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:30\x1b[m\x1b[K,\n'}
+[3.662798] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.662871] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.662942] (lqr_effort_controller) StderrLine: {'line': b'   46 | \x1b[01;36m\x1b[KERROR\x1b[m\x1b[K(const std::string& format, Args... args)\n'}
+[3.663001] (lqr_effort_controller) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.663134] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[3.663208] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:30\x1b[m\x1b[K,\n'}
+[3.663273] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.663341] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:38:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::OK\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.663416] (lqr_effort_controller) StderrLine: {'line': b'   38 |   return \x1b[01;35m\x1b[KOK\x1b[m\x1b[K;\n'}
+[3.663528] (lqr_effort_controller) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.663602] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[3.663667] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:30\x1b[m\x1b[K,\n'}
+[3.663773] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.663840] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.663911] (lqr_effort_controller) StderrLine: {'line': b'   51 | auto static \x1b[01;36m\x1b[KOK\x1b[m\x1b[K\n'}
+[3.663974] (lqr_effort_controller) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.693214] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:34\x1b[m\x1b[K,\n'}
+[3.693462] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.693516] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:\x1b[m\x1b[K At global scope:\n'}
+[3.693573] (lqr_effort_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[3.693700] (lqr_effort_controller) StderrLine: {'line': b'   22 |   "This header include is deprecated. Please update your code to use \'realtime_buffer.hpp\' header."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[3.693798] (lqr_effort_controller) StderrLine: {'line': b'      |                                                                                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.694186] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:35\x1b[m\x1b[K,\n'}
+[3.694333] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[3.694391] (lqr_effort_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[3.694447] (lqr_effort_controller) StderrLine: {'line': b'   22 |   "This header include is deprecated. Please update your code to use \'realtime_publisher.hpp\' header."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[3.694501] (lqr_effort_controller) StderrLine: {'line': b'      |                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.741665] (-) TimerEvent: {}
+[3.842644] (-) TimerEvent: {}
+[3.943312] (-) TimerEvent: {}
+[4.044174] (-) TimerEvent: {}
+[4.056084] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type lqr_effort_controller::LqrEffortController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.056370] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:278:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcurrent_ref\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.056454] (lqr_effort_controller) StderrLine: {'line': b'  278 |   auto \x1b[01;35m\x1b[Kcurrent_ref\x1b[m\x1b[K = input_ref_.readFromRT();\n'}
+[4.056517] (lqr_effort_controller) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.144473] (-) TimerEvent: {}
+[4.245159] (-) TimerEvent: {}
+[4.345888] (-) TimerEvent: {}
+[4.448963] (-) TimerEvent: {}
+[4.549815] (-) TimerEvent: {}
+[4.650626] (-) TimerEvent: {}
+[4.751271] (-) TimerEvent: {}
+[4.851843] (-) TimerEvent: {}
+[4.955326] (-) TimerEvent: {}
+[5.059555] (-) TimerEvent: {}
+[5.160120] (-) TimerEvent: {}
+[5.260649] (-) TimerEvent: {}
+[5.361479] (-) TimerEvent: {}
+[5.462249] (-) TimerEvent: {}
+[5.564739] (-) TimerEvent: {}
+[5.665317] (-) TimerEvent: {}
+[5.766189] (-) TimerEvent: {}
+[5.867115] (-) TimerEvent: {}
+[5.967857] (-) TimerEvent: {}
+[6.068630] (-) TimerEvent: {}
+[6.169211] (-) TimerEvent: {}
+[6.270095] (-) TimerEvent: {}
+[6.370671] (-) TimerEvent: {}
+[6.471602] (-) TimerEvent: {}
+[6.572356] (-) TimerEvent: {}
+[6.673188] (-) TimerEvent: {}
+[6.774076] (-) TimerEvent: {}
+[6.877973] (-) TimerEvent: {}
+[6.978785] (-) TimerEvent: {}
+[7.079380] (-) TimerEvent: {}
+[7.179995] (-) TimerEvent: {}
+[7.280488] (-) TimerEvent: {}
+[7.381250] (-) TimerEvent: {}
+[7.482051] (-) TimerEvent: {}
+[7.583343] (-) TimerEvent: {}
+[7.683830] (-) TimerEvent: {}
+[7.784588] (-) TimerEvent: {}
+[7.885047] (-) TimerEvent: {}
+[7.986269] (-) TimerEvent: {}
+[8.087477] (-) TimerEvent: {}
+[8.188549] (-) TimerEvent: {}
+[8.289427] (-) TimerEvent: {}
+[8.390578] (-) TimerEvent: {}
+[8.491342] (-) TimerEvent: {}
+[8.592096] (-) TimerEvent: {}
+[8.692915] (-) TimerEvent: {}
+[8.794012] (-) TimerEvent: {}
+[8.894693] (-) TimerEvent: {}
+[8.995612] (-) TimerEvent: {}
+[9.096258] (-) TimerEvent: {}
+[9.197384] (-) TimerEvent: {}
+[9.298774] (-) TimerEvent: {}
+[9.399800] (-) TimerEvent: {}
+[9.500671] (-) TimerEvent: {}
+[9.601568] (-) TimerEvent: {}
+[9.701980] (-) TimerEvent: {}
+[9.802983] (-) TimerEvent: {}
+[9.904354] (-) TimerEvent: {}
+[10.005132] (-) TimerEvent: {}
+[10.106863] (-) TimerEvent: {}
+[10.208531] (-) TimerEvent: {}
+[10.309007] (-) TimerEvent: {}
+[10.410042] (-) TimerEvent: {}
+[10.510539] (-) TimerEvent: {}
+[10.611695] (-) TimerEvent: {}
+[10.712631] (-) TimerEvent: {}
+[10.814038] (-) TimerEvent: {}
+[10.915734] (-) TimerEvent: {}
+[11.016307] (-) TimerEvent: {}
+[11.117562] (-) TimerEvent: {}
+[11.218277] (-) TimerEvent: {}
+[11.319149] (-) TimerEvent: {}
+[11.422049] (-) TimerEvent: {}
+[11.522860] (-) TimerEvent: {}
+[11.623895] (-) TimerEvent: {}
+[11.724714] (-) TimerEvent: {}
+[11.825373] (-) TimerEvent: {}
+[11.925937] (-) TimerEvent: {}
+[12.029370] (-) TimerEvent: {}
+[12.146100] (-) TimerEvent: {}
+[12.246747] (-) TimerEvent: {}
+[12.348987] (-) TimerEvent: {}
+[12.450180] (-) TimerEvent: {}
+[12.550901] (-) TimerEvent: {}
+[12.652059] (-) TimerEvent: {}
+[12.752887] (-) TimerEvent: {}
+[12.853755] (-) TimerEvent: {}
+[12.954430] (-) TimerEvent: {}
+[13.058236] (-) TimerEvent: {}
+[13.159550] (-) TimerEvent: {}
+[13.260148] (-) TimerEvent: {}
+[13.360820] (-) TimerEvent: {}
+[13.461348] (-) TimerEvent: {}
+[13.562317] (-) TimerEvent: {}
+[13.663125] (-) TimerEvent: {}
+[13.763769] (-) TimerEvent: {}
+[13.864731] (-) TimerEvent: {}
+[13.965417] (-) TimerEvent: {}
+[14.066201] (-) TimerEvent: {}
+[14.166994] (-) TimerEvent: {}
+[14.267670] (-) TimerEvent: {}
+[14.370515] (-) TimerEvent: {}
+[14.471308] (-) TimerEvent: {}
+[14.572531] (-) TimerEvent: {}
+[14.673309] (-) TimerEvent: {}
+[14.773912] (-) TimerEvent: {}
+[14.874505] (-) TimerEvent: {}
+[14.977222] (-) TimerEvent: {}
+[15.077666] (-) TimerEvent: {}
+[15.178352] (-) TimerEvent: {}
+[15.279352] (-) TimerEvent: {}
+[15.379754] (-) TimerEvent: {}
+[15.480874] (-) TimerEvent: {}
+[15.581623] (-) TimerEvent: {}
+[15.683042] (-) TimerEvent: {}
+[15.783731] (-) TimerEvent: {}
+[15.884191] (-) TimerEvent: {}
+[15.985265] (-) TimerEvent: {}
+[16.086109] (-) TimerEvent: {}
+[16.189449] (-) TimerEvent: {}
+[16.290538] (-) TimerEvent: {}
+[16.391356] (-) TimerEvent: {}
+[16.492370] (-) TimerEvent: {}
+[16.593117] (-) TimerEvent: {}
+[16.694100] (-) TimerEvent: {}
+[16.795338] (-) TimerEvent: {}
+[16.898865] (-) TimerEvent: {}
+[16.999500] (-) TimerEvent: {}
+[17.100365] (-) TimerEvent: {}
+[17.200894] (-) TimerEvent: {}
+[17.301716] (-) TimerEvent: {}
+[17.402206] (-) TimerEvent: {}
+[17.502766] (-) TimerEvent: {}
+[17.605285] (-) TimerEvent: {}
+[17.706028] (-) TimerEvent: {}
+[17.806896] (-) TimerEvent: {}
+[17.907844] (-) TimerEvent: {}
+[18.008419] (-) TimerEvent: {}
+[18.109692] (-) TimerEvent: {}
+[18.211021] (-) TimerEvent: {}
+[18.311971] (-) TimerEvent: {}
+[18.412848] (-) TimerEvent: {}
+[18.513650] (-) TimerEvent: {}
+[18.614092] (-) TimerEvent: {}
+[18.716764] (-) TimerEvent: {}
+[18.775323] (lqr_effort_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblqr_effort_controller.so\x1b[0m\n'}
+[18.817783] (-) TimerEvent: {}
+[18.918908] (-) TimerEvent: {}
+[19.020856] (-) TimerEvent: {}
+[19.122018] (-) TimerEvent: {}
+[19.223079] (-) TimerEvent: {}
+[19.326119] (-) TimerEvent: {}
+[19.426937] (-) TimerEvent: {}
+[19.527367] (-) TimerEvent: {}
+[19.627858] (-) TimerEvent: {}
+[19.728391] (-) TimerEvent: {}
+[19.829217] (-) TimerEvent: {}
+[19.930107] (-) TimerEvent: {}
+[20.031592] (-) TimerEvent: {}
+[20.081842] (lqr_effort_controller) StdoutLine: {'line': b'[100%] Built target lqr_effort_controller\n'}
+[20.098771] (lqr_effort_controller) CommandEnded: {'returncode': 0}
+[20.101026] (lqr_effort_controller) JobProgress: {'identifier': 'lqr_effort_controller', 'progress': 'install'}
+[20.110606] (lqr_effort_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller'], 'cwd': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('LP_NO_RAST', 'false'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1353'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('COLORTERM', 'truecolor'), ('LP_PERF', 'nopt,noasm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('FORCE_SOFTWARE', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1353,unix/lzy-virtual-machine:/tmp/.ICE-unix/1353'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a000902_92fd_424c_936a_7c97aa0896a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e75fa47c5a3a6342.txt'), ('LP_NUM_THREADS', '8'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ZZ072'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23d2f62c67.sock'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GALLIUM_DRIVER', 'llvmpipe'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.117571] (lqr_effort_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.117764] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/include/lqr_effort_controller\n'}
+[20.117855] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/include/lqr_effort_controller/validate_lqr_effort_controller_parameters.hpp\n'}
+[20.117930] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller_parameters.hpp\n'}
+[20.117994] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/lqr_effort_controller.xml\n'}
+[20.118059] (lqr_effort_controller) StdoutLine: {'line': b'-- Installing: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib/liblqr_effort_controller.so\n'}
+[20.132076] (-) TimerEvent: {}
+[20.133972] (lqr_effort_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib/liblqr_effort_controller.so" to ""\n'}
+[20.134314] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/include/lqr_effort_controller\n'}
+[20.134392] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller\n'}
+[20.134457] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller/validate_lqr_effort_controller_parameters.hpp\n'}
+[20.134542] (lqr_effort_controller) StdoutLine: {'line': b'-- Installing: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller/lqr_effort_controller.hpp\n'}
+[20.134727] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller/visibility_control.h\n'}
+[20.134909] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/environment/library_path.sh\n'}
+[20.135121] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/environment/library_path.dsv\n'}
+[20.135257] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/ament_index/resource_index/package_run_dependencies/lqr_effort_controller\n'}
+[20.135372] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/ament_index/resource_index/parent_prefix_path/lqr_effort_controller\n'}
+[20.135684] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/environment/ament_prefix_path.sh\n'}
+[20.135775] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/environment/ament_prefix_path.dsv\n'}
+[20.135868] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/environment/path.sh\n'}
+[20.135936] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/environment/path.dsv\n'}
+[20.136021] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/local_setup.bash\n'}
+[20.136145] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/local_setup.sh\n'}
+[20.136243] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/local_setup.zsh\n'}
+[20.136396] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/local_setup.dsv\n'}
+[20.136518] (lqr_effort_controller) StdoutLine: {'line': b'-- Installing: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.dsv\n'}
+[20.136651] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/ament_index/resource_index/packages/lqr_effort_controller\n'}
+[20.136811] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/lqr_effort_controller\n'}
+[20.136913] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.136977] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.137039] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.137097] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/cmake/lqr_effort_controllerConfig.cmake\n'}
+[20.137153] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/cmake/lqr_effort_controllerConfig-version.cmake\n'}
+[20.137216] (lqr_effort_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.xml\n'}
+[20.139847] (lqr_effort_controller) CommandEnded: {'returncode': 0}
+[20.170329] (lqr_effort_controller) JobEnded: {'identifier': 'lqr_effort_controller', 'rc': 0}
+[20.172402] (robot_description_pkg) JobStarted: {'identifier': 'robot_description_pkg'}
+[20.184060] (robot_description_pkg) JobProgress: {'identifier': 'robot_description_pkg', 'progress': 'cmake'}
+[20.184866] (robot_description_pkg) JobProgress: {'identifier': 'robot_description_pkg', 'progress': 'build'}
+[20.185948] (robot_description_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg', '--', '-j8', '-l8'], 'cwd': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('LP_NO_RAST', 'false'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1353'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('COLORTERM', 'truecolor'), ('LP_PERF', 'nopt,noasm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('FORCE_SOFTWARE', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1353,unix/lzy-virtual-machine:/tmp/.ICE-unix/1353'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a000902_92fd_424c_936a_7c97aa0896a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e75fa47c5a3a6342.txt'), ('LP_NUM_THREADS', '8'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ZZ072'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23d2f62c67.sock'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GALLIUM_DRIVER', 'llvmpipe'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:/opt/ros/humble')]), 'shell': False}
+[20.233303] (-) TimerEvent: {}
+[20.242317] (robot_description_pkg) CommandEnded: {'returncode': 0}
+[20.244835] (robot_description_pkg) JobProgress: {'identifier': 'robot_description_pkg', 'progress': 'install'}
+[20.244892] (robot_description_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg'], 'cwd': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('LP_NO_RAST', 'false'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1353'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('COLORTERM', 'truecolor'), ('LP_PERF', 'nopt,noasm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('FORCE_SOFTWARE', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1353,unix/lzy-virtual-machine:/tmp/.ICE-unix/1353'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a000902_92fd_424c_936a_7c97aa0896a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e75fa47c5a3a6342.txt'), ('LP_NUM_THREADS', '8'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ZZ072'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23d2f62c67.sock'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GALLIUM_DRIVER', 'llvmpipe'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:/opt/ros/humble')]), 'shell': False}
+[20.261593] (robot_description_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.262394] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf\n'}
+[20.262537] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/common_inertia.xacro\n'}
+[20.264337] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/base_link.urdf.xacro\n'}
+[20.264911] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/sensor\n'}
+[20.265007] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/sensor/imu_link.urdf.xacro\n'}
+[20.265058] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/series_wheel_legged_robot.ros2_control.xacro\n'}
+[20.265103] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/leg_link.urdf.xacro\n'}
+[20.265149] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/series_wheel_legged_robot.urdf.xacro\n'}
+[20.265198] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/actor\n'}
+[20.265240] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/actor/wheel_link.urdf.xacro\n'}
+[20.265282] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/config\n'}
+[20.265337] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/config/series_wheel_legged_robot_ros2_control.yaml\n'}
+[20.265403] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/config/rviz2_default_config.rviz\n'}
+[20.265446] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/launch\n'}
+[20.265486] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/launch/robot_display.launch.py\n'}
+[20.265530] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/plugins\n'}
+[20.265589] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/plugins/gazebo_sensor_imu.xacro\n'}
+[20.265649] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/ament_index/resource_index/package_run_dependencies/robot_description_pkg\n'}
+[20.265712] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/ament_index/resource_index/parent_prefix_path/robot_description_pkg\n'}
+[20.265753] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/environment/ament_prefix_path.sh\n'}
+[20.265795] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/environment/ament_prefix_path.dsv\n'}
+[20.265837] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/environment/path.sh\n'}
+[20.265992] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/environment/path.dsv\n'}
+[20.266053] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.bash\n'}
+[20.266119] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.sh\n'}
+[20.266162] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.zsh\n'}
+[20.266203] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.dsv\n'}
+[20.266245] (robot_description_pkg) StdoutLine: {'line': b'-- Installing: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.dsv\n'}
+[20.266289] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/ament_index/resource_index/packages/robot_description_pkg\n'}
+[20.266331] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/cmake/robot_description_pkgConfig.cmake\n'}
+[20.266375] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/cmake/robot_description_pkgConfig-version.cmake\n'}
+[20.266416] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.xml\n'}
+[20.270672] (robot_description_pkg) CommandEnded: {'returncode': 0}
+[20.289961] (robot_description_pkg) JobEnded: {'identifier': 'robot_description_pkg', 'rc': 0}
+[20.294273] (-) EventReactorShutdown: {}

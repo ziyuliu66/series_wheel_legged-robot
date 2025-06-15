@@ -1,0 +1,97 @@
+[0.018s] Invoking command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller -- -j8 -l8
+[0.116s] [ 50%] Built target lqr_effort_controller_parameters
+[0.162s] [ 75%] [32mBuilding CXX object CMakeFiles/lqr_effort_controller.dir/src/lqr_effort_controller.cpp.o[0m
+[4.591s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28[m[K,
+[4.591s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.591s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:1:166:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "lqr_effort_controller_parameters.hpp" is deprecated. Use #include <lqr_effort_controller/lqr_effort_controller_parameters.hpp> instead.[m[K’
+[4.591s]     1 | essage("#include \"lqr_effort_controller_parameters.hpp\" is deprecated. Use #include <lqr_effort_controller/lqr_effort_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[4.591s]       |                                                                                                                                                             [01;36m[K^[m[K
+[4.592s] 
+[4.750s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31[m[K,
+[4.750s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28[m[K,
+[4.750s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.750s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:29:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.750s]    29 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[4.750s]       |                                                                           [01;35m[K^[m[K
+[4.751s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25[m[K,
+[4.751s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28[m[K,
+[4.751s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.751s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.751s]    37 | using [01;36m[KResult[m[K
+[4.751s]       |       [01;36m[K^~~~~~[m[K
+[4.751s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31[m[K,
+[4.751s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28[m[K,
+[4.751s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.752s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[4.752s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:35:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.752s]    35 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[4.752s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.752s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25[m[K,
+[4.752s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28[m[K,
+[4.752s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.752s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.752s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[4.754s]       | [01;36m[K^~~~~[m[K
+[4.754s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31[m[K,
+[4.754s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28[m[K,
+[4.754s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.754s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:38:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.754s]    38 |   return [01;35m[KOK[m[K;
+[4.754s]       |          [01;35m[K^~[m[K
+[4.754s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25[m[K,
+[4.754s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28[m[K,
+[4.754s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.754s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.755s]    51 | auto static [01;36m[KOK[m[K
+[4.755s]       |             [01;36m[K^~[m[K
+[4.789s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:32[m[K,
+[4.789s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.789s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:[m[K At global scope:
+[4.789s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[4.789s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[4.789s]       |                                                                                                    [01;36m[K^[m[K
+[4.790s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:33[m[K,
+[4.790s]                  from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[4.790s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[4.790s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[4.790s]       |                                                                                                       [01;36m[K^[m[K
+[5.250s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:[m[K In member function ‘[01m[Kvoid lqr_effort_controller::LqrEffortController::imu_callback(std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >)[m[K’:
+[5.250s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:192:3:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_roll_[m[K’ was not declared in this scope
+[5.251s]   192 |   [01;31m[Keuler_roll_[m[K = roll;
+[5.251s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.265s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:193:3:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_pitch_[m[K’ was not declared in this scope
+[5.265s]   193 |   [01;31m[Keuler_pitch_[m[K = pitch;
+[5.265s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[5.276s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:194:3:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_yaw_[m[K’ was not declared in this scope
+[5.276s]   194 |   [01;31m[Keuler_yaw_[m[K = yaw;
+[5.276s]       |   [01;31m[K^~~~~~~~~~[m[K
+[5.295s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:196:3:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_roll_velocity_[m[K’ was not declared in this scope
+[5.295s]   196 |   [01;31m[Keuler_roll_velocity_[m[K = msg->angular_velocity.x;
+[5.295s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.315s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:197:3:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_pitch_velocity_[m[K’ was not declared in this scope
+[5.315s]   197 |   [01;31m[Keuler_pitch_velocity_[m[K = msg->angular_velocity.y;
+[5.315s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.335s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:198:3:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_yaw_velocity_[m[K’ was not declared in this scope
+[5.335s]   198 |   [01;31m[Keuler_yaw_velocity_[m[K = msg->angular_velocity.z;
+[5.335s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.350s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:200:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_acceleration_[m[K’ was not declared in this scope
+[5.350s]   200 |   [01;31m[Kx_acceleration_[m[K = msg->linear_acceleration.x;
+[5.350s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.366s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:201:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_acceleration_[m[K’ was not declared in this scope
+[5.366s]   201 |   [01;31m[Ky_acceleration_[m[K = msg->linear_acceleration.y;
+[5.366s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.382s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:202:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kz_acceleration_[m[K’ was not declared in this scope
+[5.383s]   202 |   [01;31m[Kz_acceleration_[m[K = msg->linear_acceleration.z;
+[5.383s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.388s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:[m[K In member function ‘[01m[Kvoid lqr_effort_controller::LqrEffortController::joint_states_callback(std::shared_ptr<sensor_msgs::msg::JointState_<std::allocator<void> > >)[m[K’:
+[5.389s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:205:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.389s]   205 | void LqrEffortController::joint_states_callback([01;35m[Kconst std::shared_ptr<sensor_msgs::msg::JointState> msg[m[K)
+[5.389s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.392s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type lqr_effort_controller::LqrEffortController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.392s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:269:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_ref[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.392s]   269 |   auto [01;35m[Kcurrent_ref[m[K = input_ref_.readFromRT();
+[5.392s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[14.503s] gmake[2]: *** [CMakeFiles/lqr_effort_controller.dir/build.make:76：CMakeFiles/lqr_effort_controller.dir/src/lqr_effort_controller.cpp.o] 错误 1
+[14.504s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/lqr_effort_controller.dir/all] 错误 2
+[14.504s] gmake: *** [Makefile:146：all] 错误 2
+[14.511s] Invoked command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller -- -j8 -l8

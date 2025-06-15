@@ -1,0 +1,13 @@
+[0.020s] Invoking command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller -- -j8 -l8
+[0.064s] [ 50%] Built target lqr_effort_controller_parameters
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target lqr_effort_controller[0m
+[0.095s] [ 75%] [32mBuilding CXX object CMakeFiles/lqr_effort_controller.dir/src/lqr_effort_controller.cpp.o[0m
+[0.391s] In file included from [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20[m[K:
+[0.391s] [01m[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:44:10:[m[K [01;31m[Kfatal error: [m[Krobot_state_pub_interface/msg/robot_state.hpp: 没有那个文件或目录
+[0.391s]    44 | #include [01;31m[K"robot_state_pub_interface/msg/robot_state.hpp"[m[K
+[0.391s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.392s] compilation terminated.
+[0.395s] gmake[2]: *** [CMakeFiles/lqr_effort_controller.dir/build.make:76：CMakeFiles/lqr_effort_controller.dir/src/lqr_effort_controller.cpp.o] 错误 1
+[0.395s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/lqr_effort_controller.dir/all] 错误 2
+[0.396s] gmake: *** [Makefile:146：all] 错误 2
+[0.398s] Invoked command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller -- -j8 -l8

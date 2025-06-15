@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000688] (lqr_effort_controller) JobQueued: {'identifier': 'lqr_effort_controller', 'dependencies': OrderedDict()}
+[0.000777] (robot_description_pkg) JobQueued: {'identifier': 'robot_description_pkg', 'dependencies': OrderedDict([('lqr_effort_controller', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller')])}
+[0.001342] (lqr_effort_controller) JobStarted: {'identifier': 'lqr_effort_controller'}
+[0.010227] (lqr_effort_controller) JobProgress: {'identifier': 'lqr_effort_controller', 'progress': 'cmake'}
+[0.011023] (lqr_effort_controller) JobProgress: {'identifier': 'lqr_effort_controller', 'progress': 'build'}
+[0.012114] (lqr_effort_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller', '--', '-j8', '-l8'], 'cwd': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('LP_NO_RAST', 'false'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1353'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('COLORTERM', 'truecolor'), ('LP_PERF', 'nopt,noasm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('FORCE_SOFTWARE', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1353,unix/lzy-virtual-machine:/tmp/.ICE-unix/1353'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a000902_92fd_424c_936a_7c97aa0896a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e75fa47c5a3a6342.txt'), ('LP_NUM_THREADS', '8'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ZZ072'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-23d2f62c67.sock'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GALLIUM_DRIVER', 'llvmpipe'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=99f9cc2864118a0e170888bc684e65e8'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051092] (lqr_effort_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100028] (-) TimerEvent: {}
+[0.198763] (lqr_effort_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[0.199946] (lqr_effort_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.200197] (-) TimerEvent: {}
+[0.241781] (lqr_effort_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.245357] (lqr_effort_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.253743] (lqr_effort_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.265576] (lqr_effort_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.280746] (lqr_effort_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300543] (-) TimerEvent: {}
+[0.326341] (lqr_effort_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.330648] (lqr_effort_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400887] (-) TimerEvent: {}
+[0.442245] (lqr_effort_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.501078] (-) TimerEvent: {}
+[0.523736] (lqr_effort_controller) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.553911] (lqr_effort_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[0.555678] (lqr_effort_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.601710] (-) TimerEvent: {}
+[0.702582] (-) TimerEvent: {}
+[0.749263] (lqr_effort_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.50.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[0.762599] (lqr_effort_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.776229] (lqr_effort_controller) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.801848] (lqr_effort_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.803234] (-) TimerEvent: {}
+[0.805778] (lqr_effort_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.806209] (lqr_effort_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.903526] (-) TimerEvent: {}
+[0.918468] (lqr_effort_controller) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.004717] (-) TimerEvent: {}
+[1.052504] (lqr_effort_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.085356] (lqr_effort_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.094350] (lqr_effort_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller\n'}
+[1.104862] (-) TimerEvent: {}
+[1.136060] (lqr_effort_controller) StdoutLine: {'line': b'[ 50%] Built target lqr_effort_controller_parameters\n'}
+[1.146280] (lqr_effort_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lqr_effort_controller\x1b[0m\n'}
+[1.168013] (lqr_effort_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lqr_effort_controller.dir/src/lqr_effort_controller.cpp.o\x1b[0m\n'}
+[1.205547] (-) TimerEvent: {}
+[1.306393] (-) TimerEvent: {}
+[1.407923] (-) TimerEvent: {}
+[1.508384] (-) TimerEvent: {}
+[1.609019] (-) TimerEvent: {}
+[1.710092] (-) TimerEvent: {}
+[1.810778] (-) TimerEvent: {}
+[1.912952] (-) TimerEvent: {}
+[2.013565] (-) TimerEvent: {}
+[2.114883] (-) TimerEvent: {}
+[2.216127] (-) TimerEvent: {}
+[2.316804] (-) TimerEvent: {}
+[2.417405] (-) TimerEvent: {}
+[2.518392] (-) TimerEvent: {}
+[2.618950] (-) TimerEvent: {}
+[2.719865] (-) TimerEvent: {}
+[2.821480] (-) TimerEvent: {}
+[2.922677] (-) TimerEvent: {}
+[3.023386] (-) TimerEvent: {}
+[3.124758] (-) TimerEvent: {}
+[3.225379] (-) TimerEvent: {}
+[3.326207] (-) TimerEvent: {}
+[3.427280] (-) TimerEvent: {}
+[3.527846] (-) TimerEvent: {}
+[3.628981] (-) TimerEvent: {}
+[3.729960] (-) TimerEvent: {}
+[3.830937] (-) TimerEvent: {}
+[3.931861] (-) TimerEvent: {}
+[4.032799] (-) TimerEvent: {}
+[4.133336] (-) TimerEvent: {}
+[4.234407] (-) TimerEvent: {}
+[4.250044] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28\x1b[m\x1b[K,\n'}
+[4.250414] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.250505] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:1:166:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: #include "lqr_effort_controller_parameters.hpp" is deprecated. Use #include <lqr_effort_controller/lqr_effort_controller_parameters.hpp> instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.250574] (lqr_effort_controller) StderrLine: {'line': b'    1 | essage("#include \\"lqr_effort_controller_parameters.hpp\\" is deprecated. Use #include <lqr_effort_controller/lqr_effort_controller_parameters.hpp> instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[4.250676] (lqr_effort_controller) StderrLine: {'line': b'      |                                                                                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.250747] (lqr_effort_controller) StderrLine: {'line': b'\n'}
+[4.333678] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[4.333981] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28\x1b[m\x1b[K,\n'}
+[4.334082] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.334173] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:29:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.334252] (lqr_effort_controller) StderrLine: {'line': b'   29 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.334317] (lqr_effort_controller) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.334383] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[4.334815] (-) TimerEvent: {}
+[4.334963] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28\x1b[m\x1b[K,\n'}
+[4.335074] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.335188] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.335268] (lqr_effort_controller) StderrLine: {'line': b'   37 | using \x1b[01;36m\x1b[KResult\x1b[m\x1b[K\n'}
+[4.335336] (lqr_effort_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.335401] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[4.335474] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28\x1b[m\x1b[K,\n'}
+[4.335542] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.335607] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.335677] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:35:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.335780] (lqr_effort_controller) StderrLine: {'line': b'   35 |     return \x1b[01;35m\x1b[KERROR("\'interface_name\' parameter can not start with \'blup_\'")\x1b[m\x1b[K;\n'}
+[4.335871] (lqr_effort_controller) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.335938] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[4.336006] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28\x1b[m\x1b[K,\n'}
+[4.336072] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.336141] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.336211] (lqr_effort_controller) StderrLine: {'line': b'   46 | \x1b[01;36m\x1b[KERROR\x1b[m\x1b[K(const std::string& format, Args... args)\n'}
+[4.336324] (lqr_effort_controller) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.336397] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[4.336468] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28\x1b[m\x1b[K,\n'}
+[4.336535] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.336605] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/validate_lqr_effort_controller_parameters.hpp:38:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::OK\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.336685] (lqr_effort_controller) StderrLine: {'line': b'   38 |   return \x1b[01;35m\x1b[KOK\x1b[m\x1b[K;\n'}
+[4.336750] (lqr_effort_controller) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.336815] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller/include/lqr_effort_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[4.336881] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:28\x1b[m\x1b[K,\n'}
+[4.336987] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.337067] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.337134] (lqr_effort_controller) StderrLine: {'line': b'   51 | auto static \x1b[01;36m\x1b[KOK\x1b[m\x1b[K\n'}
+[4.337201] (lqr_effort_controller) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.358579] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:32\x1b[m\x1b[K,\n'}
+[4.358887] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.358979] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:\x1b[m\x1b[K At global scope:\n'}
+[4.359059] (lqr_effort_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[4.359178] (lqr_effort_controller) StderrLine: {'line': b'   22 |   "This header include is deprecated. Please update your code to use \'realtime_buffer.hpp\' header."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[4.359276] (lqr_effort_controller) StderrLine: {'line': b'      |                                                                                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.359602] (lqr_effort_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/include/lqr_effort_controller/lqr_effort_controller.hpp:33\x1b[m\x1b[K,\n'}
+[4.359702] (lqr_effort_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:20\x1b[m\x1b[K:\n'}
+[4.359773] (lqr_effort_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[4.359853] (lqr_effort_controller) StderrLine: {'line': b'   22 |   "This header include is deprecated. Please update your code to use \'realtime_publisher.hpp\' header."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[4.359922] (lqr_effort_controller) StderrLine: {'line': b'      |                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.435594] (-) TimerEvent: {}
+[4.536449] (-) TimerEvent: {}
+[4.622842] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::CallbackReturn lqr_effort_controller::LqrEffortController::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.623100] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:115:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLqrController\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.623192] (lqr_effort_controller) StderrLine: {'line': b'  115 |     std::bind(&\x1b[01;31m\x1b[KLqrController\x1b[m\x1b[K::imu_callback, this, std::placeholders::_1));\n'}
+[4.623264] (lqr_effort_controller) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.623330] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:119:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLqrController\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.623410] (lqr_effort_controller) StderrLine: {'line': b'  119 |     std::bind(&\x1b[01;31m\x1b[KLqrController\x1b[m\x1b[K::joint_states_callback, this, std::placeholders::_1));\n'}
+[4.623492] (lqr_effort_controller) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.632744] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.632916] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:184:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLqrController\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.633000] (lqr_effort_controller) StderrLine: {'line': b'  184 | void \x1b[01;31m\x1b[KLqrController\x1b[m\x1b[K::imu_callback(const std::shared_ptr<sensor_msgs::msg::Imu> msg)\n'}
+[4.633066] (lqr_effort_controller) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.637124] (-) TimerEvent: {}
+[4.639988] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lqr_effort_controller::imu_callback(std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.640136] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:192:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler_roll_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.640208] (lqr_effort_controller) StderrLine: {'line': b'  192 |   \x1b[01;31m\x1b[Keuler_roll_\x1b[m\x1b[K = roll;\n'}
+[4.640290] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.644758] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:193:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler_pitch_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.644902] (lqr_effort_controller) StderrLine: {'line': b'  193 |   \x1b[01;31m\x1b[Keuler_pitch_\x1b[m\x1b[K = pitch;\n'}
+[4.644971] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.649417] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:194:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler_yaw_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.649574] (lqr_effort_controller) StderrLine: {'line': b'  194 |   \x1b[01;31m\x1b[Keuler_yaw_\x1b[m\x1b[K = yaw;\n'}
+[4.649648] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.658361] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:196:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler_roll_velocity_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.658543] (lqr_effort_controller) StderrLine: {'line': b'  196 |   \x1b[01;31m\x1b[Keuler_roll_velocity_\x1b[m\x1b[K = msg->angular_velocity.x;\n'}
+[4.658629] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.666767] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:197:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler_pitch_velocity_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.666992] (lqr_effort_controller) StderrLine: {'line': b'  197 |   \x1b[01;31m\x1b[Keuler_pitch_velocity_\x1b[m\x1b[K = msg->angular_velocity.y;\n'}
+[4.667087] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.675406] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:198:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler_yaw_velocity_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.675704] (lqr_effort_controller) StderrLine: {'line': b'  198 |   \x1b[01;31m\x1b[Keuler_yaw_velocity_\x1b[m\x1b[K = msg->angular_velocity.z;\n'}
+[4.675789] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.681753] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:200:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx_acceleration_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.681938] (lqr_effort_controller) StderrLine: {'line': b'  200 |   \x1b[01;31m\x1b[Kx_acceleration_\x1b[m\x1b[K = msg->linear_acceleration.x;\n'}
+[4.682036] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.687378] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:201:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_acceleration_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.687554] (lqr_effort_controller) StderrLine: {'line': b'  201 |   \x1b[01;31m\x1b[Ky_acceleration_\x1b[m\x1b[K = msg->linear_acceleration.y;\n'}
+[4.687630] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.692754] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:202:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kz_acceleration_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.692935] (lqr_effort_controller) StderrLine: {'line': b'  202 |   \x1b[01;31m\x1b[Kz_acceleration_\x1b[m\x1b[K = msg->linear_acceleration.z;\n'}
+[4.693018] (lqr_effort_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.693090] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.693164] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:205:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLqrController\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.693236] (lqr_effort_controller) StderrLine: {'line': b'  205 | void \x1b[01;31m\x1b[KLqrController\x1b[m\x1b[K::joint_states_callback(const std::shared_ptr<sensor_msgs::msg::JointState> msg)\n'}
+[4.693324] (lqr_effort_controller) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.696269] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lqr_effort_controller::joint_states_callback(std::shared_ptr<sensor_msgs::msg::JointState_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.696466] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:205:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.696555] (lqr_effort_controller) StderrLine: {'line': b'  205 | void LqrController::joint_states_callback(\x1b[01;35m\x1b[Kconst std::shared_ptr<sensor_msgs::msg::JointState> msg\x1b[m\x1b[K)\n'}
+[4.696635] (lqr_effort_controller) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.698135] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type lqr_effort_controller::LqrEffortController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.698283] (lqr_effort_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller/src/lqr_effort_controller.cpp:269:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcurrent_ref\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.698426] (lqr_effort_controller) StderrLine: {'line': b'  269 |   auto \x1b[01;35m\x1b[Kcurrent_ref\x1b[m\x1b[K = input_ref_.readFromRT();\n'}
+[4.698496] (lqr_effort_controller) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.737546] (-) TimerEvent: {}
+[4.838172] (-) TimerEvent: {}
+[4.939404] (-) TimerEvent: {}
+[5.040497] (-) TimerEvent: {}
+[5.141699] (-) TimerEvent: {}
+[5.242891] (-) TimerEvent: {}
+[5.343397] (-) TimerEvent: {}
+[5.444326] (-) TimerEvent: {}
+[5.544830] (-) TimerEvent: {}
+[5.645705] (-) TimerEvent: {}
+[5.746383] (-) TimerEvent: {}
+[5.847296] (-) TimerEvent: {}
+[5.948365] (-) TimerEvent: {}
+[6.049224] (-) TimerEvent: {}
+[6.150064] (-) TimerEvent: {}
+[6.250866] (-) TimerEvent: {}
+[6.352195] (-) TimerEvent: {}
+[6.453203] (-) TimerEvent: {}
+[6.553921] (-) TimerEvent: {}
+[6.654513] (-) TimerEvent: {}
+[6.755490] (-) TimerEvent: {}
+[6.856560] (-) TimerEvent: {}
+[6.957370] (-) TimerEvent: {}
+[7.058427] (-) TimerEvent: {}
+[7.159534] (-) TimerEvent: {}
+[7.260332] (-) TimerEvent: {}
+[7.361408] (-) TimerEvent: {}
+[7.462497] (-) TimerEvent: {}
+[7.563247] (-) TimerEvent: {}
+[7.675559] (-) TimerEvent: {}
+[7.776272] (-) TimerEvent: {}
+[7.788136] (lqr_effort_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lqr_effort_controller.dir/build.make:76\xef\xbc\x9aCMakeFiles/lqr_effort_controller.dir/src/lqr_effort_controller.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.788477] (lqr_effort_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/lqr_effort_controller.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.788577] (lqr_effort_controller) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.793181] (lqr_effort_controller) CommandEnded: {'returncode': 2}
+[7.812462] (lqr_effort_controller) JobEnded: {'identifier': 'lqr_effort_controller', 'rc': 2}
+[7.823943] (robot_description_pkg) JobSkipped: {'identifier': 'robot_description_pkg'}
+[7.824016] (-) EventReactorShutdown: {}

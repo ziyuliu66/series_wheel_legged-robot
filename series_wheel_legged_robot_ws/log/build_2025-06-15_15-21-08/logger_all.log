@@ -1,0 +1,196 @@
+[0.176s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.177s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7eadb5e27b80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eadb5e274c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eadb5e274c0>>)
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.459s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_effort_controller) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_effort_controller' with type 'ros.ament_cmake' and name 'lqr_effort_controller'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description_pkg) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_description_pkg' with type 'ros.ament_cmake' and name 'robot_description_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.536s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'lqr_effort_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.652s] DEBUG:colcon.colcon_core.verb:Building package 'lqr_effort_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller', 'merge_install': False, 'path': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller', 'symlink_install': False, 'test_result_base': None}
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_target' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.654s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg', 'merge_install': False, 'path': '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/robot_description_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.654s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller' with build type 'ament_cmake'
+[0.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/lqr_effort_controller'
+[0.663s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller -- -j8 -l8
+[31.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller -- -j8 -l8
+[31.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller
+[31.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lqr_effort_controller)
+[31.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/lqr_effort_controller
+[31.454s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller' for CMake module files
+[31.455s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller' for CMake config files
+[31.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('lqr_effort_controller', 'cmake_prefix_path')
+[31.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/cmake_prefix_path.ps1'
+[31.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/cmake_prefix_path.dsv'
+[31.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/cmake_prefix_path.sh'
+[31.465s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib'
+[31.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('lqr_effort_controller', 'ld_library_path_lib')
+[31.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/ld_library_path_lib.ps1'
+[31.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/ld_library_path_lib.dsv'
+[31.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/ld_library_path_lib.sh'
+[31.469s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/bin'
+[31.469s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib/pkgconfig/lqr_effort_controller.pc'
+[31.470s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib/python3.10/site-packages'
+[31.470s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/bin'
+[31.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.ps1'
+[31.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.dsv'
+[31.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.sh'
+[31.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.bash'
+[31.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.zsh'
+[31.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/colcon-core/packages/lqr_effort_controller)
+[31.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lqr_effort_controller)
+[31.483s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller' for CMake module files
+[31.485s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller' for CMake config files
+[31.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('lqr_effort_controller', 'cmake_prefix_path')
+[31.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/cmake_prefix_path.ps1'
+[31.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/cmake_prefix_path.dsv'
+[31.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/cmake_prefix_path.sh'
+[31.490s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib'
+[31.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('lqr_effort_controller', 'ld_library_path_lib')
+[31.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/ld_library_path_lib.ps1'
+[31.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/ld_library_path_lib.dsv'
+[31.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/hook/ld_library_path_lib.sh'
+[31.494s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/bin'
+[31.494s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib/pkgconfig/lqr_effort_controller.pc'
+[31.495s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib/python3.10/site-packages'
+[31.496s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/bin'
+[31.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.ps1'
+[31.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.dsv'
+[31.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.sh'
+[31.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.bash'
+[31.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/lqr_effort_controller/package.zsh'
+[31.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/share/colcon-core/packages/lqr_effort_controller)
+[31.503s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/robot_description_pkg' with build type 'ament_cmake'
+[31.504s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/robot_description_pkg'
+[31.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg': AMENT_PREFIX_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg -- -j8 -l8
+[31.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg -- -j8 -l8
+[31.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg': AMENT_PREFIX_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg
+[31.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description_pkg)
+[31.645s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg' for CMake module files
+[31.646s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg' for CMake config files
+[31.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description_pkg', 'cmake_prefix_path')
+[31.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/hook/cmake_prefix_path.ps1'
+[31.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/hook/cmake_prefix_path.dsv'
+[31.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/lqr_effort_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/build/robot_description_pkg
+[31.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/hook/cmake_prefix_path.sh'
+[31.653s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/bin'
+[31.653s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/lib/pkgconfig/robot_description_pkg.pc'
+[31.653s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/lib/python3.10/site-packages'
+[31.654s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/bin'
+[31.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.ps1'
+[31.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.dsv'
+[31.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.sh'
+[31.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.bash'
+[31.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.zsh'
+[31.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/colcon-core/packages/robot_description_pkg)
+[31.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description_pkg)
+[31.663s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg' for CMake module files
+[31.664s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg' for CMake config files
+[31.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description_pkg', 'cmake_prefix_path')
+[31.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/hook/cmake_prefix_path.ps1'
+[31.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/hook/cmake_prefix_path.dsv'
+[31.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/hook/cmake_prefix_path.sh'
+[31.669s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/bin'
+[31.669s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/lib/pkgconfig/robot_description_pkg.pc'
+[31.669s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/lib/python3.10/site-packages'
+[31.670s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/bin'
+[31.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.ps1'
+[31.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.dsv'
+[31.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.sh'
+[31.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.bash'
+[31.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/robot_description_pkg/package.zsh'
+[31.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/robot_description_pkg/share/colcon-core/packages/robot_description_pkg)
+[31.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.676s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.686s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.719s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/local_setup.ps1'
+[31.722s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/_local_setup_util_ps1.py'
+[31.727s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/setup.ps1'
+[31.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/local_setup.sh'
+[31.731s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/_local_setup_util_sh.py'
+[31.733s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/setup.sh'
+[31.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/local_setup.bash'
+[31.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/setup.bash'
+[31.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/local_setup.zsh'
+[31.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lzy/ros2_study/series_wheel_legged-robot/series_wheel_legged_robot_ws/install/setup.zsh'

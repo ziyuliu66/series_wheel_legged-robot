@@ -6,15 +6,19 @@ controller_manager:
       type: joint_state_broadcaster/JointStateBroadcaster
       use_sim_time: true
 
-#     lqr_effort_controller:
-#       type: lqr_controller/LqrController
+    lqr_effort_controller:
+      type: lqr_effort_controller/LqrEffortController
 
-# lqr_effort_controller:
-#   ros__parameters:
-#     joints:
-#       - left_wheel_joint
-#       - right_wheel_joint
-#     interface_name: effort
+lqr_effort_controller:
+  ros__parameters:
+    joints:
+      - left_wheel_joint
+      - right_wheel_joint
+      - left_hip_joint
+      - right_hip_joint
+      - left_knee_joint
+      - right_knee_joint
+    interface_name: effort
     
 
 
