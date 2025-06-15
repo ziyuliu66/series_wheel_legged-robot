@@ -330,19 +330,15 @@ void VMC_calc(float F0, float Tp, float theta0, float theta1, float T0, float T1
     const float theta_diff = theta0 - theta1;
     
     // 计算雅可比矩阵的分母公共项
-    const float denom1 = thigh_link_length * thigh_link_length + 
-                          2 * thigh_link_length * shank_link_length * std::cos(theta_diff) + 
-                          shank_link_length * shank_link_length;
+    const float denom1 = thigh_link_length * thigh_link_length + 2 * thigh_link_length * shank_link_length * std::cos(theta_diff) + shank_link_length * shank_link_length;
     const float denom2 = std::sqrt(denom1);
     
     // 计算雅可比矩阵元素
     const float sin_diff = std::sin(theta_diff);
     const float j11 = -(thigh_link_length * shank_link_length * sin_diff) / denom2;
     const float j12 = -j11;  // 因为j12 = -j11
-    const float j21 = (thigh_link_length * 
-                       (thigh_link_length + shank_link_length * std::cos(theta_diff))) / denom1;
-    const float j22 = (shank_link_length * 
-                       (shank_link_length + thigh_link_length * std::cos(theta_diff))) / denom1;
+    const float j21 = (thigh_link_length * (thigh_link_length + shank_link_length * std::cos(theta_diff))) / denom1;
+    const float j22 = (shank_link_length * (shank_link_length + thigh_link_length * std::cos(theta_diff))) / denom1;
     
     // 计算关节力矩 (τ = JᵀF)
     T0 = j11 * F0 + j21 * Tp;  // 大腿关节力矩
