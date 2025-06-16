@@ -61,6 +61,8 @@ static const float shank_link_length = 0.3;
 
 static const float rad2angle = 180/PI;
 
+static const float wheel_radius = 0.1;
+
 // TODO(anyone: example setup for control mode (usually you will use some enums defined in messages)
 enum class control_mode_type : std::uint8_t
 {
@@ -90,18 +92,16 @@ struct RobotState {
     float right_wheel_velocity = 0.0;  // 右轮线速度
 
     //各关节角度（单位：弧度/秒）
-    float left_hip_angle = 0.0;
-    float right_hip_angle = 0.0;
-    float left_knee_angle = 0.0;
-    float right_knee_angle = 0.0;
+    float left_hip_angle = 0.0, left_knee_angle = 0.0;
+    float right_hip_angle = 0.0, right_knee_angle = 0.0;
 
     //theta0为髋关节计算角度，theta1为膝关节计算角度
-    float left_theta0 = 0.0, right_theta0 = 0.0;
-    float left_theta1 = 0.0, right_theta1 = 0.0;
+    float left_theta0 = 0.0, left_theta1 = 0.0; 
+    float right_theta0 = 0.0, right_theta1 = 0.0;
 
     //l0为虚拟摆杆腿长，phi0为虚拟摆杆倾角
-    float left_l0 = 0.0, left_phi0 = 0.0;
-    float right_l0 = 0.0, right_phi0 = 0.0;
+    float left_l0 = 0.0, left_phi0 = 0.0, left_d_phi0 = 0.0;
+    float right_l0 = 0.0, right_phi0 = 0.0, right_d_phi0 = 0.0;
 
     //F0为虚拟摆杆推力，Tp为虚拟摆杆转矩
     float left_F0 = 0.0, left_Tp = 0.0;
@@ -109,6 +109,9 @@ struct RobotState {
 
     float left_T0 = 0.0, left_T1 = 0.0;
     float right_T0 = 0.0, right_T1 = 0.0;
+
+    float car_mean_velocity = 0.0;
+    float car_mean_displacement = 0.0;
 };
 
 class LqrEffortController : public controller_interface::ControllerInterface
@@ -174,8 +177,8 @@ private:
   void reference_callback(const std::shared_ptr<ControllerReferenceMsg> msg);
   void imu_callback(const std::shared_ptr<sensor_msgs::msg::Imu> msg);
   void joint_states_callback(const std::shared_ptr<sensor_msgs::msg::JointState> msg);
-  void L0_PHI0(const float theta0, const float theta1, float L0, float phi0);
-  void VMC_calc(float F0, float Tp, float theta0, float theta1, float T0, float T1);
+  void L0_PHI0(const float theta0, const float theta1, float& L0, float& phi0);
+  void VMC_calc(float F0, float Tp, float theta0, float theta1, float& T0, float& T1);
 
   RobotState robotstate_;
 };

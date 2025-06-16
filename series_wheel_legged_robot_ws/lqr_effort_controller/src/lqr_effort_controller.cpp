@@ -276,13 +276,18 @@ controller_interface::return_type LqrEffortController::update(
   const rclcpp::Time & time, const rclcpp::Duration & /*period*/)
 {
   auto current_ref = input_ref_.readFromRT();
+  float wheel_velocity[2] = {robotstate_.left_wheel_velocity,robotstate_.right_wheel_velocity};
 
+  robotstate_.car_mean_velocity = (wheel_velocity[0]*wheel_radius + wheel_velocity[1]*wheel_radius)/2;
+  robotstate_.car_mean_displacement += robotstate_.car_mean_velocity *(1/30);
+  
   L0_PHI0(robotstate_.left_theta0, robotstate_.left_theta1,robotstate_.left_l0,robotstate_.left_phi0);
   L0_PHI0(robotstate_.right_theta0, robotstate_.right_theta1,robotstate_.right_l0,robotstate_.right_phi0);
   VMC_calc(robotstate_.left_F0,robotstate_.left_Tp,robotstate_.left_theta0,robotstate_.left_theta1,robotstate_.left_T0,robotstate_.left_T1);
   VMC_calc(robotstate_.right_F0,robotstate_.right_Tp,robotstate_.right_theta0,robotstate_.right_theta1,robotstate_.right_T0,robotstate_.right_T1);
 
-  double set_effort[6] = {0.0,0.0,1.0,1.0,1.0,1.0};
+
+  double set_effort[6] = {0.0,0.0,-robotstate_.left_T0,-robotstate_.right_T0,-robotstate_.left_T1,-robotstate_.right_T1};
 
   // TODO(anyone): depending on number of interfaces, use definitions, e.g., `CMD_MY_ITFS`,
   // instead of a loop
@@ -310,7 +315,7 @@ controller_interface::return_type LqrEffortController::update(
   return controller_interface::return_type::OK;
 }
 
-void L0_PHI0(const float theta0, const float theta1, float L0, float phi0) {
+void L0_PHI0(const float theta0, const float theta1, float& L0, float& phi0) {
    
     // 计算末端坐标
     const float xc = thigh_link_length * std::cos(theta0) + shank_link_length * std::cos(theta1);
@@ -324,7 +329,7 @@ void L0_PHI0(const float theta0, const float theta1, float L0, float phi0) {
  
 }
 
-void VMC_calc(float F0, float Tp, float theta0, float theta1, float T0, float T1) {
+void VMC_calc(float F0, float Tp, float theta0, float theta1, float& T0, float& T1) {
 
     // 计算角度差值
     const float theta_diff = theta0 - theta1;
